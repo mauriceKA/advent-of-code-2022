@@ -43,7 +43,7 @@ console.log(`Sum of the total sizes of directories <100000: ${sizeOfSmallDirs}`)
 
 // ===== Part 2 ==============================================================================================
 
-const freeSpace = 70000000 - dirs.get("/");
+const freeSpace = 70000000 - (dirs.get("/") || 0);
 const neededSpace = 30000000 - freeSpace;
 let smallestDirToDelete = 30000000;
 
