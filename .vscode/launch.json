@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "type": "node",
-      "program": "${workspaceFolder}/day11.ts",
+      "program": "${workspaceFolder}/day12.ts",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "/usr/bin/deno",
       "runtimeArgs": [
